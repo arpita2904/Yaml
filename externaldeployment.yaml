@@ -16,7 +16,7 @@ spec:
       - name: demo-ui
         image: gcr.io/roidtc-0330-attendee106/external-image:v1.0.0
         env: 
-        - name: SERVER
+        - name: SERVER # added test comment
           value: "http://demo-service:8082"
         ports:
         - containerPort: 8080
